@@ -20,6 +20,8 @@ export default defineNuxtConfig({
     '@nuxtjs/robots'
   ],
 
+  nitro:{preset:'vercel'},
+
   site:{
     url:'https://kalambrestudio.com',
     name:'KalambreStudio'
