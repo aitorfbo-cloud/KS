@@ -1,0 +1,20 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        { "type": "host", "value": "kalambrestudio.es" }
+      ],
+      "destination": "https://kalambrestudio.com/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        { "type": "host", "value": "www.kalambrestudio.es" }
+      ],
+      "destination": "https://kalambrestudio.com/$1",
+      "permanent": true
+    }
+  ]
+}
