@@ -65,7 +65,10 @@ export default defineNuxtConfig({
         {name:'author',content:'AnderNikolay'}
       ],
       link:[
-        {rel:'icon',type:'image/x-icon',href:'/favicon.ico'}
+        { rel:'icon', href:'/favicon.ico', sizes:'any' },
+        { rel:'icon', type:'image/png', href:'/favicon-48x48.png', sizes:'48x48' },
+        { rel:'icon', type:'image/png', href:'/favicon-96x96.png', sizes:'96x96' },
+        { rel:'apple-touch-icon', href:'/apple-touch-icon.png', sizes:'180x180' }
       ]
     }
   }
