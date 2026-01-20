@@ -62,14 +62,17 @@ export default defineNuxtConfig({
       meta:[
         {name:'viewport',content:'width=device-width, initial-scale=1'},
         {name:'theme-color',content:'#000000'},
-        {name:'author',content:'AnderNikolay'}
+        {name:'author',content:'AnderNikolay'},
+        { property:'og:site_name', content:'KalambreStudio' },
+        { property:'og:url', content:'https://kalambrestudio.com/' }
       ],
       link:[
         { rel:'icon', href:'/favicon.ico', sizes:'any' },
         { rel:'shortcut icon', href:'/favicon.ico' },
         { rel:'icon', type:'image/png', href:'/favicon-48x48.png', sizes:'48x48' },
         { rel:'icon', type:'image/png', href:'/favicon-96x96.png', sizes:'96x96' },
-        { rel:'apple-touch-icon', href:'/apple-touch-icon.png', sizes:'180x180' }
+        { rel:'apple-touch-icon', href:'/apple-touch-icon.png', sizes:'180x180' },
+        { rel:'manifest', href:'/site.webmanifest' }
       ]
     }
   }
